@@ -3,5 +3,11 @@ from practice01 import  add
 
 class TestDemo(unittest.TestCase):
 
-    def test_cal(self):
-        assert add(1, 2) == 3
+    def test_add(self):
+        assert add(10, 5) == 15
+
+    def test_subtract(self):
+        #TODO
+
+    def test_multiply(self):
+        #TODO
